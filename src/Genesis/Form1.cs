@@ -40,7 +40,7 @@ namespace Genesis
                             Task.Run(() => Network.SearchReqStartPage(this, s, (int)numericUpDown2.Value, (int)numericUpDown1.Value));
                         if (SelectedModules.QWANT)
                             Task.Run(() => Network.SearchReqQ(this, s, (int)numericUpDown2.Value, (int)numericUpDown1.Value));
-                        //if (SelectedModules.duckDuckGo)
+                        if (SelectedModules.duckDuckGo)
                             Task.Run(() => Network.SearchReqDuckDuckGo(this, s, (int)numericUpDown2.Value, (int)numericUpDown1.Value));
                     }
             }

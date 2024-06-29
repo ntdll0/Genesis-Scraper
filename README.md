@@ -3,7 +3,7 @@ In order to get specific results, you can use filters such as startsWith, endsWi
 Delay sets waiting time while scraping from multiple pages.<br>
 There is support for scraping multiple keywords at once by entering them in list separated by line break.<br>
 You can also use flags like inurl:"something" or intitle:"something"...<br><br>
-Scraper is just a basic level old implementation and won't be maintained anymore.<br>
+<strong>Scraper is just a basic level old implementation and won't be maintained anymore.</strong><br>
 
 
 ![image](https://github.com/ntdll0/Genesis-Scraper/assets/164230949/98864412-fae5-4830-abd7-2c844e13010c)
